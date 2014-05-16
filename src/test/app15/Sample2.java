@@ -1,7 +1,7 @@
 package test.app15;
 
 public class Sample2 {
-	static class Queue<T> { //
+	static class Queue<T> {
 		final int SIZE = 5;
 		private Object[] values = new Object[SIZE+1];
 		private int head = 0;
@@ -15,10 +15,10 @@ public class Sample2 {
 			tail = tail % values.length;
 			return true;
 		}
-		T dequeue() { //
+		T dequeue() {
 			T data = null; //
 			if (tail != head) {
-				data = (T)values[head++]; //
+				data = (T)values[head++];
 				head = head % values.length;
 			}
 			return data;

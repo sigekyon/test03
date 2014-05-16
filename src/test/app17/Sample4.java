@@ -1,0 +1,32 @@
+package test.app17;
+
+public class Sample4 {
+    enum Month {
+        JANUARY("ñråé"),
+        FEBRUARY("î@åé"),
+        MARCH("ñÌê∂"),
+        APRIL("âKåé"),
+        MAY("éHåé"),
+        JUNE("êÖñ≥åé"),
+        JULY("ï∂åé"),
+        AUGUST("ótåé"),
+        SEPTEMBER("í∑åé"),
+        OCTOBER("ê_ñ≥åé"),
+        NOVEMBER("ëöåé"),
+        DECEMBER("étëñ");
+  
+        private String name;
+        Month(String name) { this.name = name; }
+        public String getName() { return name; }
+    }
+    public void exec() {
+        for (Month m : Month.values()) {
+          System.out.println(m + ":" + m.getName());
+        }
+    }
+    public static void main(String[] args) {
+      Sample4 app = new Sample4();
+      app.exec();
+    }
+
+}
