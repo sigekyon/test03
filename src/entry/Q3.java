@@ -28,7 +28,7 @@ public class Q3 {
 		app6(scan);
 		scan.close();
 	}
-	
+//	3-3
 	static void app3(){
 		int seibetsu = 1;
 		int age = 28;
@@ -43,7 +43,7 @@ public class Q3 {
 		}
 		System.out.println("‚æ‚ë‚µ‚­‚¨‚Ë‚ª‚¢‚µ‚Ü‚·B");
 	}
-	
+//	3-5
 	static void app5(Scanner scan){
 		int selected;
 		System.out.println("[ƒƒjƒ…[]1:ŒŸõ 2:“o˜^ 3:íœ 4:•ÏX >");
@@ -66,7 +66,7 @@ public class Q3 {
 			break;
 		}
 	}
-	
+//	3-6
 	static void app6(Scanner scan){
 		int ans = new Random().nextInt(10);
 		int num;

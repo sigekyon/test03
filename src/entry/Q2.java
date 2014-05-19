@@ -14,14 +14,14 @@ public class Q2 {
 		app1();
 		app3();
 	}
-	
+//	2-1
 	static void app1(){
 		int x = 5;
 		int y = 10;
 		String ans = "x+y‚Í" + (x + y);
 		System.out.println(ans);
 	}
-	
+//	2-3
 	static void app3(){
 		String name = null;
 		String ageString = null;

@@ -21,7 +21,7 @@ public class Q1 {
 		
 		System.out.println("c•3‰¡•5‚Ì’·•ûŒ`‚Ì–ÊÏ‚ÍA" + c);
 	}
-
+//	1-3
 	static void app3(){
 		boolean d = true;
 		char e = '‹ì';
