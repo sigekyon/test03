@@ -24,7 +24,9 @@ public class Q3 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		app3();
+		System.out.println("\n----------\n");
 		app5(scan);
+		System.out.println("\n----------\n");
 		app6(scan);
 		scan.close();
 	}

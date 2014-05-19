@@ -12,6 +12,7 @@ public class Q2 {
 
 	public static void main(String[] args) {
 		app1();
+		System.out.println("\n----------\n");
 		app3();
 	}
 //	2-1
