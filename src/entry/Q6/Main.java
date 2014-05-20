@@ -8,7 +8,6 @@ import entry.Q6.comment.Zenhan;
  * 6-5
  * C:\javaapp\koumon
  * 
-
 */
 public class Main {
 
