@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>管理者メニュー</title>
+</head>
+<script type="text/javascript">
+function check(){
+    window.alert("機能はまだない。");
+    var obj = document.forms["baseFrm"];
+    obj.method = "post";
+    obj.action = "UsrManager";
+    obj.submit();
+	}
+</script>
+<body>
+<!-- <form action="Login" method="post">
+	ユーザーID：<input type="Text" name="userID"><br>
+	パスワード：<input type="Text" name="password"><br>
+	<input type="submit" name="login" value="ログイン">
+</form> -->
+<form name="baseFrm" action="UsrManager" method="post">
+社員番号：<input type="Text" name="empNum" required><br>
+姓：<input type="Text" name="lastName" required><br>
+名：<input type="Text" name="firstName" required><br>
+アカウント：<input type="Text" name="account" required><br>
+パスワード：<input type="Password" name="inputPass" required><br>
+パスワード（確認）：<input type="Password" name="confirmPass" required><br>
+<input type="button" name="reg" value="登録" onClick="check()">
+<input type="submit" name="view" value="表示">
+<input type="submit" name="export" value="エクスポート">
+<input type="submit" name="import" value="インポート">
+</form>
+</body>
+</html>
